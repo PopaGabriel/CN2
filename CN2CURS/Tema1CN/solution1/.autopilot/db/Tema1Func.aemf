@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1644169493902">
+  <ports id="1" name="E" type="PortType" originalName="E" coreId="4294967292" bitwidth="1"/>
+  <ports id="2" name="S" type="PortType" originalName="S" coreId="25" bitwidth="1"/>
+  <ports id="3" name="V" type="PortType" originalName="V" coreId="4" bitwidth="1"/>
+  <ports id="4" name="N" type="PortType" originalName="N" coreId="585" bitwidth="1"/>
+  <ports id="5" name="rule" type="PortType" originalName="rule" coreId="763721081" bitwidth="32"/>
+  <ports id="6" name="EW" type="PortType" originalName="EW" coreId="1021029246" bitwidth="1"/>
+  <ports id="7" name="NS" type="PortType" originalName="NS" coreId="539107436" bitwidth="1"/>
+  <blocks id="25" name="Tema1Func" type="BlockType">
+    <node_objs xsi:type="cdfg:CdfgNode" id="24" name="_ln12" lineNumber="12" fileName="Tema1CN/tema1Curs.cpp" fileDirectory=".." coreId="540684654" contextFuncName="Tema1Func" opcode="ret" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Tema1CN/tema1Curs.cpp" linenumber="12" fileDirectory="C:\Users\Catalin\Desktop\CN2CURS" functionName="Tema1Func"/>
+    </node_objs>
+    <fileValidLineNumbers fileName="Tema1CN/tema1Curs.cpp">
+      <validLinenumbers>12</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <ScheduleInfo time="0"/>
+  <ioPorts name="E"/>
+  <ioPorts name="EW"/>
+  <ioPorts name="N"/>
+  <ioPorts name="NS"/>
+  <ioPorts name="S"/>
+  <ioPorts name="V"/>
+  <ioPorts name="rule"/>
+  <fsm>
+    <states id="1">
+      <operations id="8" stage="1" latency="1"/>
+      <operations id="9" stage="1" latency="1"/>
+      <operations id="10" stage="1" latency="1"/>
+      <operations id="11" stage="1" latency="1"/>
+      <operations id="12" stage="1" latency="1"/>
+      <operations id="13" stage="1" latency="1"/>
+      <operations id="14" stage="1" latency="1"/>
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="1"/>
+      <operations id="17" stage="1" latency="1"/>
+      <operations id="18" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="20" stage="1" latency="1"/>
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="1"/>
+      <operations id="23" stage="1" latency="1"/>
+      <operations id="24" stage="1" latency="1"/>
+    </states>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="Tema1Func" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>25</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

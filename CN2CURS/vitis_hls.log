@@ -1,0 +1,47 @@
+INFO: [HLS 200-10] Running 'D:/Vitis_HLS/2020.2/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'Catalin' on host 'desktop-gnivnd6' (Windows NT_amd64 version 6.2) on Sun Feb 06 23:27:43 +0200 2022
+INFO: [HLS 200-10] In directory 'C:/Users/Catalin/Desktop/CN2CURS'
+Sourcing Tcl script 'C:/Users/Catalin/Desktop/CN2CURS/Tema1CN/solution1/csim.tcl'
+INFO: [HLS 200-1510] Running: open_project Tema1CN 
+INFO: [HLS 200-10] Opening project 'C:/Users/Catalin/Desktop/CN2CURS/Tema1CN'.
+INFO: [HLS 200-1510] Running: set_top Tema1Func 
+INFO: [HLS 200-1510] Running: add_files Tema1CN/tema1Curs.cpp 
+INFO: [HLS 200-10] Adding design file 'Tema1CN/tema1Curs.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb Tema1CN/tema1Curs_tb.cpp -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'Tema1CN/tema1Curs_tb.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb Tema1CN/tema1Curs_tb.h -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'Tema1CN/tema1Curs_tb.h' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution 'C:/Users/Catalin/Desktop/CN2CURS/Tema1CN/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2020.2;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xc7a100t-csg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: set_directive_top -name Tema1Func Tema1Func 
+INFO: [HLS 200-1510] Running: csim_design -clean -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling ../../../tema1Curs_tb.cpp in debug mode
+   Compiling ../../../tema1Curs.cpp in debug mode
+   Generating csim.exe
+0 0 0 0 5 1 0
+0 0 0 1 4 0 1
+0 0 1 0 4 0 1
+0 0 1 1 3 0 1
+0 1 0 0 2 1 0
+0 1 0 1 2 1 0
+0 1 1 0 2 1 0
+0 1 1 1 3 0 1
+1 0 0 0 2 1 0
+1 0 0 1 2 1 0
+1 0 1 0 2 1 0
+1 0 1 1 3 0 1
+1 1 0 0 1 1 0
+1 1 0 1 1 1 0
+1 1 1 0 1 1 0
+1 1 1 1 1 1 0
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.387 seconds; current allocated memory: 158.559 MB.

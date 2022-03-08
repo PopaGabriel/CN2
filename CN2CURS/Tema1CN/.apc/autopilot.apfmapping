@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="tema1Curs.cpp" path="C:\Users\Catalin\Desktop\CN2CURS\Tema1CN\tema1Curs.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="tema1Curs_tb.cpp" path="C:\Users\Catalin\Desktop\CN2CURS\Tema1CN\tema1Curs_tb.cpp"/>
+    <originFiles name="tema1Curs_tb.h" path="C:\Users\Catalin\Desktop\CN2CURS\Tema1CN\tema1Curs_tb.h"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

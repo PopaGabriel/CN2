@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"Tema1Func": {
+			"proto_instances": {
+			}
+		}
+	}
+}
